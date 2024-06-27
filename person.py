@@ -19,5 +19,5 @@ class Person:
         return age
     
 person1 = Person("Martha", "China", date(1962, 7, 12))
-print(person1.age)
+print(person1.determineAge())
 
